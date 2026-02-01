@@ -27,6 +27,14 @@ a{ color: var(--blue); text-decoration:none; }
 
 /* HERO */
 .hero{
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: radial-gradient(600px 200px at 50% 0%, rgba(34,211,238,.12), transparent 60%);
+  pointer-events:none;
+}
+
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid var(--line);

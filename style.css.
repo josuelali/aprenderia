@@ -7,4 +7,9 @@ body {
 }
 h1, h2 {
   color: #222;
+.robot {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
 }
